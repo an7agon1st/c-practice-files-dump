@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void addfirst();
+void deletefirst();     //add or delete first nodes
+
+void add();
+void delete();          //add and delete nodes
+
+void byval();
+void byindex();         //delete by val or index
+
+int main(){
+    
+    
+	return 0;
+	
+}
+
+struct node {
+
+struct node *link;
+int data;
+
+
+}struct node *head;
+
+
+
+
